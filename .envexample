@@ -1,0 +1,12 @@
+
+DATABASE_URL="mysql://user:dbpassword@localhost:32770/dbtable"
+
+# Admin Credentials for local development
+ADMIN_USERNAME="admin"
+ADMIN_PASSWORD="password"
+
+# Application Settings
+NEXT_PUBLIC_APP_NAME="ContractFlow"
+JWT_SECRET="dev-secret-keep-it-simple-for-now"
+COOKIE_SECURE=false
+NODE_ENV="development"
