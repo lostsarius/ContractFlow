@@ -1,4 +1,4 @@
-# 📄 ContractFlow
+# ContractFlow
 
 ContractFlow is a sleek, modern, and efficient web application designed to help you manage your contracts, subscriptions, and recurring expenses. Keep track of costs, upcoming renewals, and documents all in one place.
 
@@ -7,17 +7,17 @@ ContractFlow is a sleek, modern, and efficient web application designed to help 
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker)
 
-## ✨ Features
+## Features
 
-- **📊 Dashboard Analytics**: Overview of monthly/yearly costs and upcoming renewals.
-- **📝 Contract Management**: Full CRUD operations for all your contracts and subscriptions.
-- **🔔 Renewal Alerts**: Status indicators for active, cancelled, or expiring contracts.
-- **📁 Document Management**: Keep track of contract documents and notes.
-- **🌓 Dark Mode**: Built-in dark and light mode support using Shadcn UI.
-- **🐳 Dockerized**: Easy deployment using multi-stage Docker builds.
-- **🔐 Secure**: JWT-based authentication and secure password hashing.
+- **Dashboard Analytics**: Overview of monthly/yearly costs and upcoming renewals.
+- **Contract Management**: Full CRUD operations for all your contracts and subscriptions.
+- **Renewal Alerts**: Status indicators for active, cancelled, or expiring contracts.
+- **Document Management**: Keep track of contract documents and notes.
+- **Dark Mode**: Built-in dark and light mode support using Shadcn UI.
+- **Dockerized**: Easy deployment using multi-stage Docker builds.
+- **Secure**: JWT-based authentication and secure password hashing.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
 - **Database**: [MySQL](https://www.mysql.com/) with `mysql2` (Raw SQL for performance)
@@ -26,7 +26,7 @@ ContractFlow is a sleek, modern, and efficient web application designed to help 
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Auth**: `jose` (JWT) & `bcryptjs`
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ docker-compose up -d
    npm run dev
    ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 - `/app`: Next.js App Router (Pages & API Routes)
 - `/components`: Reusable UI components (Shadcn UI)
@@ -76,9 +76,9 @@ docker-compose up -d
 - `/prisma`: (Legacy) Database schema references
 - `/public`: Static assets
 
-## ⚖️ License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Built with ❤️ by [Your Name/Github Handle]
+Built by [Your Name/Github Handle]
