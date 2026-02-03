@@ -38,10 +38,9 @@ CREATE TABLE IF NOT EXISTS Setting (
     value TEXT NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 4. Set up user permissions (uncomment and modify according to your needs)
--- CREATE USER IF NOT EXISTS 'vertraege_user'@'%' IDENTIFIED BY 'your_secure_password';
--- GRANT ALL PRIVILEGES ON vertraege.* TO 'vertraege_user'@'%';
--- FLUSH PRIVILEGES;
+-- 4. Set up user permissions
+GRANT ALL PRIVILEGES ON vertraege.* TO 'contractflow'@'%';
+FLUSH PRIVILEGES;
 
 -- 5. Seed initial settings (optional)
 -- INSERT INTO Setting (id, `key`, value) VALUES (UUID(), 'app_name', 'ContractFlow');
